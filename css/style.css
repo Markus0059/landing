@@ -1,0 +1,76 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Special+Elite&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url('./components/banner.css');
+@import url('./components/container.css');
+@import url('./components/btn.css');
+@import url('./components/card.css');
+@import url('./components/footer.css');
+@import url('./components/cards.css');
+@import url('./components/footer.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Audiowide', cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+ul li {
+  list-style: none;
+}
+
+ul {
+  padding: 20;
+  font-family: "Imperial Script", cursive;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 00px;
+}
+
+ul li a:hover {
+  color: aliceblue;
+}
+
+ul li a {
+  color: blue;
+  text-decoration: none;
+}
+
+@media (max-width: 960px) {
+
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}

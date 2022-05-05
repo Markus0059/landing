@@ -1,0 +1,9 @@
+footer h2 {
+  text-align: center;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  height: 200px;
+}

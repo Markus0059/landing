@@ -1,0 +1,12 @@
+.btn-green {
+  color: white;
+  background-color: #3AC162;
+  padding: 12px 24px;
+  border-radius: 50%;
+  opacity: 0.7;
+  transition-duration: 0.5s;
+}
+
+.btn-green:hover {
+  opacity: 1;
+}

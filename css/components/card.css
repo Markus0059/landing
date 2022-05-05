@@ -1,0 +1,15 @@
+.card {
+  height: 240px;
+  width: 160px;
+  border: 1px solid rgb(49, 67, 132, 0.4);
+  border-radius: 5px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 8px;
+  box-shadow: 0 0 15px rgb(26, 26, 139, 0.4);
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+}
